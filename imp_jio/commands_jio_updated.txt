@@ -369,7 +369,7 @@ java update :
 
 4.sudo update-alternatives --config javac (select /usr/lib/jvm/java-6-openjdk-amd64/bin/javac )
 
-5. check java --version
+5. check java -version
 ......................................................................................................................................................................
 
 downgrading to 1.7 in ubuntu 16.04
@@ -742,3 +742,16 @@ Press CTRL + V to enable visual block mode.
 Move down and select the lines till you want to uncomment.
 press x and it will uncomment all the selected lines at once.
 ..............................................................................................
+
+>> docker container connection :
+first connect to pc with ssh where code present 
+
+>> sudo docker run -it f300b:ceres ( here f300b is code name  and ceres is pc name )
+   nxt buils steps : ex : build/envestup
+                          lunch
+                          make -j4
+>> dpkg-reconfigure dash if get any modem proc compilation issues 
+...........................................................................................
+
+
+
